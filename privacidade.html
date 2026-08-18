@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacidade, Termos e Exclusão de Dados | Dra. Karla Bessa</title>
+<style>
+  :root {
+    --bg: #FBFAF7;
+    --ink: #24211D;
+    --ink-soft: #57534A;
+    --line: #E4E0D8;
+    --accent: #8A6E4B;
+    --accent-soft: #F1EBDF;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Georgia', 'Iowan Old Style', serif;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 72px 24px 120px;
+  }
+
+  header.page {
+    margin-bottom: 56px;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 40px;
+  }
+
+  .mark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border: 1px solid var(--accent);
+    border-radius: 50%;
+    font-family: 'Georgia', serif;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: var(--accent);
+    margin-bottom: 28px;
+  }
+
+  h1 {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 600;
+    font-size: clamp(28px, 4vw, 38px);
+    letter-spacing: -0.01em;
+    margin: 0 0 12px;
+    color: var(--ink);
+  }
+
+  .subtitle {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 15px;
+    color: var(--ink-soft);
+    margin: 0;
+  }
+
+  .updated {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin-top: 18px;
+    letter-spacing: 0.02em;
+  }
+
+  nav.toc {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    gap: 28px;
+    margin-top: 32px;
+    flex-wrap: wrap;
+  }
+
+  nav.toc a {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 14px;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease;
+  }
+
+  nav.toc a:hover {
+    border-color: var(--accent);
+  }
+
+  section.block {
+    margin-bottom: 64px;
+    scroll-margin-top: 32px;
+  }
+
+  .eyebrow {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0 0 24px;
+    color: var(--ink);
+  }
+
+  h3 {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 28px 0 10px;
+    color: var(--ink);
+  }
+
+  p {
+    font-size: 16px;
+    color: var(--ink);
+    margin: 0 0 16px;
+  }
+
+  ul {
+    margin: 0 0 16px;
+    padding-left: 20px;
+  }
+
+  li {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .callout {
+    background: var(--accent-soft);
+    border-left: 3px solid var(--accent);
+    padding: 20px 24px;
+    border-radius: 2px;
+    margin: 24px 0;
+  }
+
+  .callout p {
+    margin: 0;
+    font-size: 15px;
+  }
+
+  .callout p + p {
+    margin-top: 10px;
+  }
+
+  a.contact-link {
+    color: var(--accent);
+  }
+
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--accent);
+    text-decoration: none;
+    margin-bottom: 40px;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+  }
+
+  .back-link:hover {
+    border-color: var(--accent);
+  }
+
+  footer.page {
+    border-top: 1px solid var(--line);
+    padding-top: 32px;
+    margin-top: 16px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 13px;
+    color: var(--ink-soft);
+  }
+
+  @media (max-width: 520px) {
+    .wrap { padding: 48px 20px 80px; }
+    nav.toc { gap: 18px; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <a href="index.html" class="back-link">← Voltar ao site</a>
+
+    <header class="page">
+      <div class="mark">KB</div>
+      <h1>Privacidade, Termos e Exclusão de Dados</h1>
+      <p class="subtitle">Consultório Karla Bessa — Estética Avançada</p>
+      <p class="updated">Última atualização: 17 de agosto de 2026</p>
+      <nav class="toc">
+        <a href="#privacidade">Política de Privacidade</a>
+        <a href="#termos">Termos de Serviço</a>
+        <a href="#exclusao">Exclusão de Dados</a>
+      </nav>
+    </header>
+
+    <section class="block" id="privacidade">
+      <div class="eyebrow">Seção 1</div>
+      <h2>Política de Privacidade</h2>
+
+      <p>Esta política explica quais dados coletamos quando você entra em contato com o consultório, para que usamos essas informações e como você pode exercer seus direitos sobre elas, em conformidade com a Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018).</p>
+
+      <h3>Quais dados coletamos</h3>
+      <ul>
+        <li>Nome completo</li>
+        <li>Número de telefone / WhatsApp</li>
+        <li>Histórico de mensagens trocadas com nosso atendimento</li>
+        <li>Informações sobre tratamentos de interesse, fornecidas por você durante a conversa</li>
+        <li>Dados de origem do contato (por exemplo, qual anúncio ou campanha levou você até nós), quando aplicável</li>
+      </ul>
+
+      <h3>Para que usamos esses dados</h3>
+      <ul>
+        <li>Agendar e confirmar avaliações e sessões de tratamento</li>
+        <li>Responder dúvidas sobre procedimentos oferecidos pelo consultório</li>
+        <li>Enviar lembretes e comunicações relacionadas ao seu atendimento</li>
+        <li>Entender quais canais de divulgação funcionam melhor, de forma agregada, para melhorar nosso atendimento</li>
+      </ul>
+
+      <h3>Com quem compartilhamos</h3>
+      <p>Não vendemos nem compartilhamos seus dados com terceiros para fins de marketing. Seus dados podem ser processados por ferramentas de apoio à gestão do consultório (como plataformas de agendamento, CRM e automação de atendimento), sempre com o único propósito de viabilizar seu atendimento.</p>
+
+      <h3>Por quanto tempo guardamos seus dados</h3>
+      <p>Mantemos seus dados enquanto durar o relacionamento com o consultório e pelo prazo necessário para cumprir obrigações legais e regulatórias aplicáveis à área da saúde e estética.</p>
+
+      <h3>Seus direitos</h3>
+      <p>Você pode, a qualquer momento, solicitar acesso, correção, portabilidade ou exclusão dos seus dados pessoais. Veja como fazer isso na seção <a href="#exclusao">Exclusão de Dados</a> abaixo.</p>
+    </section>
+
+    <section class="block" id="termos">
+      <div class="eyebrow">Seção 2</div>
+      <h2>Termos de Serviço</h2>
+
+      <p>Ao entrar em contato com o consultório por WhatsApp, formulário ou outros canais digitais, você concorda com os termos abaixo.</p>
+
+      <h3>Finalidade do canal de atendimento</h3>
+      <p>Nossos canais digitais (WhatsApp e formulários do site) são destinados exclusivamente a agendamento, dúvidas sobre tratamentos e comunicação relacionada aos serviços de estética avançada oferecidos pelo consultório. Não utilizamos esse canal para fins alheios ao atendimento clínico e comercial do consultório.</p>
+
+      <h3>Responsabilidades do consultório</h3>
+      <ul>
+        <li>Responder mensagens em horário comercial, ou o mais breve possível fora dele</li>
+        <li>Tratar as informações compartilhadas com confidencialidade</li>
+        <li>Fornecer informações claras sobre tratamentos, valores e procedimentos, quando solicitado</li>
+      </ul>
+
+      <h3>Responsabilidades de quem entra em contato</h3>
+      <ul>
+        <li>Fornecer informações verdadeiras para viabilizar o atendimento</li>
+        <li>Utilizar o canal de forma respeitosa</li>
+      </ul>
+
+      <h3>Alterações nestes termos</h3>
+      <p>Podemos atualizar esta página periodicamente. A data da última atualização está indicada no topo desta página.</p>
+    </section>
+
+    <section class="block" id="exclusao">
+      <div class="eyebrow">Seção 3</div>
+      <h2>Exclusão de Dados</h2>
+
+      <p>Você tem o direito de solicitar a exclusão dos seus dados pessoais armazenados pelo consultório a qualquer momento.</p>
+
+      <h3>Como solicitar</h3>
+      <p>Envie um pedido de exclusão por qualquer um dos canais abaixo, informando seu nome completo e telefone utilizado no atendimento:</p>
+
+      <div class="callout">
+        <p><strong>E-mail:</strong> <a class="contact-link" href="mailto:consultoriokarlabessa@gmail.com">consultoriokarlabessa@gmail.com</a></p>
+        <p><strong>WhatsApp:</strong> mesmo número utilizado para agendamentos</p>
+      </div>
+
+      <h3>Prazo de atendimento</h3>
+      <p>Processamos solicitações de exclusão em até 15 dias corridos, conforme previsto pela LGPD. Você receberá uma confirmação por e-mail ou WhatsApp assim que a exclusão for concluída.</p>
+
+      <h3>Exceções</h3>
+      <p>Alguns dados podem ser mantidos além do pedido de exclusão quando exigido por obrigação legal, regulatória ou para exercício regular de direitos em processos administrativos ou judiciais.</p>
+    </section>
+
+    <footer class="page">
+      Consultório Karla Bessa — Estética Avançada · Dúvidas sobre esta página: <a class="contact-link" href="mailto:consultoriokarlabessa@gmail.com">consultoriokarlabessa@gmail.com</a>
+    </footer>
+
+  </div>
+</body>
+</html>
